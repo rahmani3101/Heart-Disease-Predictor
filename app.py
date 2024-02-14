@@ -4,9 +4,9 @@ import streamlit as st
 import pickle as pk
 
 
-model = pk.load(open('C:\\Users\\asadr\\Heart\\mera file .pkl' , 'rb'))
+model = pk.load(open('mera file .pkl' , 'rb'))
 
-data=pd.read_csv('C:\\Users\\asadr\\Heart\\heart_disease.csv')
+data=pd.read_csv('heart_disease.csv')
 
 st.header( ' HEART DISEASE PREDICTOR ')
 
