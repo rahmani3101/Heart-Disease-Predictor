@@ -3,4 +3,4 @@ pandas
 streamlit
 imblearn
 scikit-learn
-pickle
+
